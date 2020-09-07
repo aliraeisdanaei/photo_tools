@@ -12,4 +12,6 @@ This script automatically converts all heic or similar files to jpg files from t
 
 ## Apple Live Photo to Jpeg Converter
 
-This script uses ffmpeg to chnage every MOV file to the Jpeg of its first name.
+This script uses ffmpeg to extract all of the frames of every MOV file that does not have a duplicate Jpeg file and is less than 3 seconds & moves the MOV files to a directory of live photos. 
+
+The argument is the path that this conversion needs to take place in. 
